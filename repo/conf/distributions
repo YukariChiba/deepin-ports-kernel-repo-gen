@@ -2,6 +2,6 @@ Origin: ci.deepin.com
 Label: ci.deepin.com
 Codename: beige
 Architectures: riscv64
-Components: ports-kernel
+Components: ports-kernel ports-imggpu
 Description: deepin-ports repository
 SignWith: 961D6DD5
