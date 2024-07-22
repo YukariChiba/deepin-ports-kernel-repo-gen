@@ -21,4 +21,4 @@ reprepro -b repo/ -C ports-kernel includedeb beige tmp/*.deb
 
 rm -r tmp
 
-rsync -rvz -e 'ssh -p 2222' repo/ deepin@10.20.64.70:/storage/repos/deepin-ports/v23-addons
+rsync -atrvzlu -e 'ssh -p 2222' repo/ deepin@10.20.64.70:/storage/repos/deepin-ports/v23-addons --delete
